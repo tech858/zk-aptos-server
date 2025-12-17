@@ -20,7 +20,7 @@ app.use(
 );
 
 // ✅ Health Check Route
-app.get("/api/status", (req, res) => {
+app.get("/express/status", (req, res) => {
   res.json({
     status: "OK",
     message: "API is running 🚀",
@@ -31,7 +31,7 @@ app.get("/api/status", (req, res) => {
 
 
 // Your zkpass route
-app.get("/api/zkpass/:address", async (req, res) => {
+app.get("/express/zkpass/:address", async (req, res) => {
   const { address } = req.params;
 
   if (!address) {
