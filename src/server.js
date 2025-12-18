@@ -23,7 +23,7 @@ app.use(
 app.get("/express/status", (req, res) => {
   res.json({
     status: "OK",
-    message: "API is running 🚀",
+    message: "API is running  hello🚀",
     timestamp: Date.now(),
   });
 });
