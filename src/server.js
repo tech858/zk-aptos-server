@@ -54,12 +54,13 @@ app.get("/express/zkpass/:address", async (req, res) => {
             {
             key: "dob",
             operation: ">",
-            value: "18",
+            value: "18"
           },
            {
             key:"isMale",
-            operation:"=",
-            value:"true"
+             isPublic:true,
+
+
           },
           
            {
