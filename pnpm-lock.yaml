@@ -11,6 +11,9 @@ importers:
       '@types/express':
         specifier: ^5.0.0
         version: 5.0.3
+      '@zkpass/linux-x64-gnu':
+        specifier: ^1.0.0
+        version: 1.0.0
       '@zkpass/zkfetch':
         specifier: ^1.0.0
         version: 1.0.5
@@ -877,8 +880,7 @@ snapshots:
   '@zkpass/linux-arm64-gnu@1.0.0':
     optional: true
 
-  '@zkpass/linux-x64-gnu@1.0.0':
-    optional: true
+  '@zkpass/linux-x64-gnu@1.0.0': {}
 
   '@zkpass/vole-node@1.0.1':
     optionalDependencies:

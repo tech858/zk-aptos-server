@@ -8,6 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/express": "^5.0.0",
+    "@zkpass/linux-x64-gnu": "^1.0.0",
     "@zkpass/zkfetch": "^1.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
