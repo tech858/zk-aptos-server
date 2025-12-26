@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 import 'dotenv/config';
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3003;
 const appid = process.env.ZKPASS_APP_ID;
 const path = process.env.WEBHOOK;
 
