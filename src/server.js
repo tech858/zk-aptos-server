@@ -89,7 +89,6 @@ app.get("/express/zkpass/:address", async (req, res) => {
   }
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`API running at http://0.0.0.0:${PORT}`);
-});
+// Export the app for Vercel serverless functions
+export default app;
 
